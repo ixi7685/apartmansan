@@ -1,6 +1,6 @@
 import React from "react";
 
-import TestimonialImage from "../images/img-16.jpg";
+// import TestimonialImage from "../images/img-16.jpg";
 
 import ImageGallery from "react-image-gallery";
 
