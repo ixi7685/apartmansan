@@ -3,8 +3,9 @@ import React, { useEffect } from "react";
 function Footer() {
   useEffect(() => {
     const ifameData = document.getElementById("iframeId");
-    const lat = 43.61947726554356;
-    const lon = 20.885976110347112;
+    const lat = 43.6183913970134;
+    const lon = 20.884961129625896;
+    
     ifameData.src = `https://maps.google.com/maps?q=${lat},${lon}&hl=es;&output=embed`;
   });
 
