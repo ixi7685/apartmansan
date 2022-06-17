@@ -14,7 +14,7 @@ function Footer() {
         <div className="flex py-8 md:py-12 border-t border-gray-200">
           <div className=" w-full flex flex-wrap -mx-2">
             <div className="w-full md:w-1/2 lg:w-1/2 px-2 py-4 flex items-center justify-center">
-              <h4 className="h4 mr-20">Saznajte više o nama!</h4>
+              <h4 className="text-xl md:text-2xl mr-20">Saznajte više o nama!</h4>
 
               <a
                 href="https://www.instagram.com/vrnjackabanjasan/"

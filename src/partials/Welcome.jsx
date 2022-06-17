@@ -44,7 +44,7 @@ function Welcome() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
-              className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4"
+              className="text-3xl md:text-4xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
               Dobrodošli u
@@ -55,7 +55,7 @@ function Welcome() {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-xl text-gray-600 mb-8"
+                className="text-m sm:text-xl text-gray-600 mb-8"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >

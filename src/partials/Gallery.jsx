@@ -1,6 +1,6 @@
 import React from "react";
 
-// import TestimonialImage from "../images/img-16.jpg";
+
 
 import ImageGallery from "react-image-gallery";
 
@@ -153,10 +153,10 @@ const properties = {
 function Gallery() {
   return (
     <section className="relative mt-8">
-      <div
-        className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none"
+       <div
+        className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-100 pointer-events-none"
         aria-hidden="true"
-      ></div>
+      ></div> 
       <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -164,7 +164,7 @@ function Gallery() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-24 md:pb-16">
             <h2 className="h2 mb-4">Galerija</h2>
-            <p className="text-xl text-gray-600" data-aos="zoom-y-out">
+            <p className="text-m sm:text-xl text-gray-600" data-aos="zoom-y-out">
               Objekat je opremljen potpuno novim nameštajem, klima uredjajem,
               grejanjem. Poseduje parking, bežični internet i kablovsku
               televiziju(mts). Od kućnih elemenata poseduje fen za kosu, peglu
